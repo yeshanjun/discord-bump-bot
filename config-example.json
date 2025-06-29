@@ -1,0 +1,38 @@
+{
+  "keywords": [
+    {
+      "trigger": "/回顶",
+      "response": {
+        "embed": {
+          "title": "回顶指南",
+          "description": "复制你要回顶的帖子链接，在url最后加/0，在对应的子区发送",
+          "color": "0x00ff00"
+        },
+        "buttons": [
+          {
+            "label": "前往子区",
+            "url": "https://discord.com/channels/YOUR_SERVER_ID/YOUR_CHANNEL_ID",
+            "emoji": "📌"
+          }
+        ]
+      }
+    },
+    {
+      "trigger": "回顶",
+      "response": {
+        "embed": {
+          "title": "回顶指南",
+          "description": "复制你要回顶的帖子链接，在url最后加/0，在对应的子区发送",
+          "color": "0x0099ff"
+        },
+        "buttons": [
+          {
+            "label": "前往子区",
+            "url": "https://discord.com/channels/YOUR_SERVER_ID/YOUR_CHANNEL_ID",
+            "emoji": "🔗"
+          }
+        ]
+      }
+    }
+  ]
+}
